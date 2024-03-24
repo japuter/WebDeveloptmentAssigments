@@ -12,4 +12,6 @@ cordX2 = parseInt(cordX2);
 cordY2 = parseInt(cordY2);
 
 
-distance = Math.sqrt(Math.pow(cordX2 - cordX, 2) + Math.pow(cordY2 - cordY, 2);
+let distance = Math.sqrt(Math.pow(cordX2 - cordX, 2) + Math.pow(cordY2 - cordY, 2));
+
+document.getElementById('output').innerHTML = distance
